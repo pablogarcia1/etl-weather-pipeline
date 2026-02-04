@@ -1,0 +1,19 @@
+# Ignore Credentials
+.env
+secrets.toml
+*.pem
+credentials.json
+
+.dlt/secrets.toml
+
+# Ignore Trash
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Ignore Data Files
+*.csv
+*.xlsx
+*.log
