@@ -22,7 +22,7 @@ print("🔌 Conectando a la Base de Datos de forma segura...")
 connection_string = f"postgresql://{db_user}:{db_pass}@{db_host}:5432/{db_name}"
 engine = create_engine(connection_string)
 
-# 3. ADQUISICIÓN
+# ADQUISICIÓN
 query = """
 SELECT 
     fecha_hora,
