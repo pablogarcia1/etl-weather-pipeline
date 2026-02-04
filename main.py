@@ -1,6 +1,6 @@
 import dlt
 import requests
-from dotenv import load_dotenv # <--- Agregamos esto
+from dotenv import load_dotenv
 
 # CARGAR VARIABLES DE ENTORNO
 load_dotenv()
@@ -18,7 +18,7 @@ URL_CLIMA = "https://api.open-meteo.com/v1/forecast?latitude=19.0413&longitude=-
 
 def obtener_clima():
     # ... (El resto de tu código sigue IGUAL, no lo toques) ...
-    print("📡 Conectando con el satélite (API)...")
+    print("Conectando con la api")
     response = requests.get(URL_CLIMA)
     response.raise_for_status()
     data = response.json()

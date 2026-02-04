@@ -44,7 +44,7 @@ df['fecha_hora'] = pd.to_datetime(df['fecha_hora'])
 # VISUALIZACIÓN
 plt.figure(figsize=(12, 6)) # Tamaño de la pantalla
 
-#
+
 plt.plot(df['fecha_hora'], df['temperatura'],
          label='Temperatura (°C)', color='tab:red', linewidth=2)
 
